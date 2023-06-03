@@ -1,0 +1,32 @@
+body
+{
+    background-color: rgb(120,194,197);
+}
+
+.container
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left:500px;
+    top: 150px;
+    background-color: rgb(208, 212, 212);
+    padding:5px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(34, 33, 33, 0.4);
+}
+.container h1
+{
+    text-align: center;
+    font-style: italic;
+    color:navy;
+    font-weight: 35px;
+}
+.container p
+{
+    text-align: center;
+    font-style: italic;
+    color:navy;
+    font-size: 20px;
+    
+}

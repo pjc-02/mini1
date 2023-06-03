@@ -1,0 +1,97 @@
+body
+{
+    background-color: rgb(120,194,197);
+}
+img
+{
+    position: relative;
+    left: 250px;
+    top: 150px;
+
+}
+.nav
+{
+
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    
+}
+.nav a
+{
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+    font-size: 25px;
+   
+
+}
+.nav a:hover
+{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:white;
+    color: rgb(21, 78, 80);
+}
+
+.log
+{
+    position: absolute;
+    top: 180px;
+    right: 250px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 50px;
+    background-color: rgb(21, 78, 80);
+    border-radius: 12px;
+    height:220px;
+    
+}
+
+.log input[type="text"], .log input[type="password"]
+{
+    display: block;
+    margin: 30px;
+    border:none;
+    outline:none;
+    background-color: rgb(21, 78, 80);
+    color:white;
+    
+    border-bottom: 1px solid white;
+    position: relative;
+    right: 30px;
+    width: 100px;
+    transition: width 1s linear;
+
+}
+.log input[type="text"]:focus, .log input[type="password"]:focus
+{
+    
+    color:white;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid white;
+    width: 150px;
+    /*position: relative;
+    right: 30px;*/
+
+}
+.log button
+{
+    position:relative;
+    top: 10px;
+    left: 60px;
+    background-color: white;
+    color:rgb(21, 78, 80);
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+
+    
+}
